@@ -1,0 +1,285 @@
+*{
+    
+    --maie-color: #4e4e4e;  
+}
+#btnup{
+    position: fixed;
+    z-index: 6666;
+    transition: all 3s;
+    background-color:blue ;
+    display: none;
+    right: 30px ;
+    bottom: 30px;
+}
+#navcloro{
+    transition: all 3s;
+}
+
+.text-maie{
+    color: var(--maie-color);
+}
+html{
+    padding: 0% !important;
+    margin: 0% !important;
+    box-sizing: 0px !important;
+   
+}
+.text-maie{
+    color:var(--maie-color);
+    font-size: 1.25rem;
+    font-weight: 300;
+    
+}
+/* img home */
+header{
+    background-image: url(intro-bg.jpg);
+    background-position: center center; 
+    background-size: cover;
+    overflow: hidden;
+}
+header::before{
+    content: "";
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    z-index: 0;
+}
+/* img home */
+
+/* first nave */
+nav a{
+    transition: all 5s;
+    border-bottom: 0px solid blue;
+    transition: all 2s;
+}
+nav a:hover{
+    border-bottom: 2PX solid blue;
+
+
+}
+
+
+
+
+
+.time-in h2::before{
+    /* position: absolute; */
+    content: "|";
+    animation-name: cont-p ;
+    animation-duration: 5s;
+
+    animation-iteration-count: infinite;
+    
+
+    color: #dee3e4 !important;
+}
+
+@keyframes cont-p {
+    0%{ content: "C |";}
+    5%{ content: "C E |";}
+    10%{ content: "C E O |";}
+    15%{ content: "C E O  |";}
+    20%{ content: "C E O   D|";}
+    25%{ content: "C E O   De|";}
+    30%{ content: "C E O   Dev|";}
+    35%{ content: "C E O   Devf|";}
+    40%{ content: "C E O   Devfo|";}
+    45%{ content: "C E O   Devfol|";}
+    50%{ content: "C E O   Devfoli|";}
+    55%{ content: "C E O   Devfolio|";}
+    60%{ content: "W|";}
+    63%{ content: "We|";}
+    69%{ content: "Web|";}
+    72%{ content: "Web |";}
+    75%{ content: " Web D|";}
+    78%{ content: " Web De|";}
+    81%{ content: "Web Dev|";}
+    84%{ content: "Web Deve|";}
+    87%{ content: "Web Devel|";}
+    90%{ content: "Web Develo|";}
+    93%{ content: "Web Develop|";}
+    96%{ content: "Web Develope|";}
+    100%{ content: "Web Developer|";}
+}
+
+
+/* SERVAES */
+
+.icon{
+    width: 10rem;
+    transition: all 1s;
+    height: 10rem;
+    
+    border: 10px solid #0078ff;
+   
+
+}
+.icon:hover{
+   
+    border: 5px solid #0077ff77;
+    box-shadow: 0 0 0 10px #0077ff46;
+     background-color:#0078ff ;
+    border-radius: 70%;
+    color: white;
+
+}
+
+
+.bg-image{
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    position: relative;
+    overflow: hidden;
+    width: 100% !important;
+    margin: 0px ! important;
+    padding: 0px! important;
+    height: 100%!important;
+
+}
+.bg-imgcolor{
+    position: absolute;
+    background-color: #0078ff;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.it-icon{
+    
+    height: 7rem;
+    width: 7rem;
+    /*  align-items مساء  العسل يا هندسه مش كل   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* work */
+
+.icoon{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
+
+  
+.card{
+    display: block;
+    overflow: hidden;
+    width: 20rem;
+}
+
+.card img{
+    transition: all 1s;
+    
+
+}
+.card:hover img{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+
+.work-im{
+
+    transform: rotatey(100px) !important;
+
+}
+
+
+.contanir-cer{
+    height: 50rem;
+    
+}
+.icoo{
+    width: 3rem;
+    height: 3rem;
+
+}
+
+
+
+/* مهم */
+/* .item-iimmgg{
+    transform:translateY(-10%);
+} */
+
+
+
+.LOGO-BOOT{
+    transform:translateY(-50%);
+}
+.logo-2{
+    width: 90px;
+}
+.logo-2 p{
+
+    margin-top: 15px;
+}
+
+.logo-1{
+    
+    width: 200px;
+}
+
+
+.bar-logo{
+    font-size: 15px;
+    height: 4rem;
+    background-color: rgb(236, 234, 234);
+
+}
+
+
+
+
+/*  */
+
+
+
+
+.frome-imm{
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    width: 100% !important;
+}
+.item-boo{
+
+    transition: all 1s !important;
+
+}
+.item-boo:hover{
+
+    box-shadow: 0 0 0 5px #0077ff46 !important;
+    
+
+}
+
+
+
+
+.icccon{
+    height: 2rem;
+    width: 2rem;
+    
+    transition: 1s all;
+}
+
+.icccon:hover{
+    color: white;
+    background: #0078ff !important  ;
+    box-shadow: 0 0 0 5px #0077ff46 !important;
+
+
+}
